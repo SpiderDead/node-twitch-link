@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/BernardJeremy/node-twitch-link/issues"
   },
-  "homepage": "https://github.com/BernardJeremy/node-twitch-link#readme"
+  "homepage": "https://github.com/BernardJeremy/node-twitch-link#readme",
+  "dependencies": {
+    "m3u8": "0.0.7",
+    "request": "^2.78.0",
+    "request-promise": "^4.1.1"
+  }
 }
