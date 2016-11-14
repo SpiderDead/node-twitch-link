@@ -1,0 +1,19 @@
+{
+  "name": "node-twitch-link",
+  "version": "1.0.0",
+  "description": "Node.JS library used to get direct link to a twitch stream/vod",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BernardJeremy/node-twitch-link.git"
+  },
+  "author": "BernardJeremy <jeremy@bernard.sh>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BernardJeremy/node-twitch-link/issues"
+  },
+  "homepage": "https://github.com/BernardJeremy/node-twitch-link#readme"
+}
