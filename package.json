@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/BernardJeremy/node-twitch-link#readme",
   "dependencies": {
+    "js-video-url-parser": "^0.2.3",
     "m3u8": "0.0.7",
     "request": "^2.78.0",
     "request-promise": "^4.1.1"

@@ -13,7 +13,7 @@ let tokenObj =  {
   oauth_token:"qudb4p4qdq858tuo25z6q9z8eq5z4qad",
 };
 
-getTwitchLink("video", "100217285", tokenObj).then(function(linkArray){
+getTwitchLink("https://www.twitch.tv/faceittv/v/101077152", tokenObj).then(function(linkArray){
   console.log(linkArray);
 }).catch(function(err){
   console.log(err);
@@ -32,7 +32,7 @@ let tokenObj =  {
   client_id:"utbs189usp16gdzdzi11seifqzevp",
 };
 
-getTwitchLink("channel", "faceittv", tokenObj).then(function(linkArray){
+getTwitchLink("https://www.twitch.tv/faceittv/", tokenObj).then(function(linkArray){
   console.log(linkArray);
 }).catch(function(err){
   console.log(err);
