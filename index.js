@@ -1,8 +1,7 @@
-const urlParser = require('js-video-url-parser');
-
 const getAccessToken = require('./lib/getAccessToken');
 const getM3U8FromUsher = require('./lib/getM3U8FromUsher');
 const M3U8Parser = require('./lib/parseM3U8');
+const TwitchLinkParser = require('./lib/parseTwitchLink');
 
 /**
  * Retrieve direct links for a twitch stream/vod
@@ -13,13 +12,13 @@ const M3U8Parser = require('./lib/parseM3U8');
 function getTwitchLink(url, tokenObj) {
   return new Promise(function(resolve, reject) {
     
-    let parsedUrl = urlParser.parse(url);
+    let parsedUrl = TwitchLinkParser.parse(url);
     if (!parsedUrl) {
-      reject("Invalid URL format");
+      return reject("Invalid URL format");
     }
 
     let type = parsedUrl.mediaType;
-    let target = (parsedUrl.mediaType === 'stream' ? parsedUrl.channel : parsedUrl.id.replace('v', ''));
+    let target = parsedUrl.id;
 
     getAccessToken(type, target, tokenObj).then(function (ret) {
 
