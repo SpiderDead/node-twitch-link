@@ -1,6 +1,6 @@
 {
   "name": "node-twitch-link",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Node.JS library used to get direct link to a twitch stream/vod",
   "main": "index.js",
   "scripts": {
