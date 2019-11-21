@@ -1,24 +1,50 @@
 {
-  "name": "node-twitch-link",
-  "version": "1.1.0",
-  "description": "Node.JS library used to get direct link to a twitch stream/vod",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
+  "_from": "github:BernardJeremy/node-twitch-link",
+  "_id": "node-twitch-link@1.1.1",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/node-twitch-link",
+  "_phantomChildren": {},
+  "_requested": {
     "type": "git",
-    "url": "git+https://github.com/BernardJeremy/node-twitch-link.git"
+    "raw": "BernardJeremy/node-twitch-link",
+    "rawSpec": "BernardJeremy/node-twitch-link",
+    "saveSpec": "github:BernardJeremy/node-twitch-link",
+    "fetchSpec": null,
+    "gitCommittish": null
   },
-  "author": "BernardJeremy <jeremy@bernard.sh>",
-  "license": "MIT",
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "github:BernardJeremy/node-twitch-link#15a46c5928b5242b87c0ff09f47934673fce05df",
+  "_spec": "BernardJeremy/node-twitch-link",
+  "_where": "C:\\Users\\jonat\\Desktop\\test",
+  "author": {
+    "name": "BernardJeremy",
+    "email": "jeremy@bernard.sh"
+  },
   "bugs": {
     "url": "https://github.com/BernardJeremy/node-twitch-link/issues"
   },
-  "homepage": "https://github.com/BernardJeremy/node-twitch-link#readme",
+  "bundleDependencies": false,
   "dependencies": {
     "m3u8": "0.0.7",
     "request": "^2.78.0",
     "request-promise": "^4.1.1"
-  }
+  },
+  "deprecated": false,
+  "description": "Node.JS library used to get direct link to a twitch stream/vod",
+  "homepage": "https://github.com/BernardJeremy/node-twitch-link#readme",
+  "license": "MIT",
+  "main": "index.js",
+  "name": "node-twitch-link",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BernardJeremy/node-twitch-link.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.1.1"
 }
