@@ -1,6 +1,13 @@
 # node-twitch-link
 Node.JS library used to get direct link to a twitch stream/vod
 
+## Installation
+
+```bash
+$ npm install poespas/node-twitch-link
+```
+
+## Usage
 ```js
 // Get VOD links
 const getTwitchLink = require('node-twitch-link')
@@ -37,12 +44,6 @@ getTwitchLink("https://www.twitch.tv/faceittv/", tokenObj).then(function(linkArr
 }).catch(function(err){
   console.log(err);
 });
-```
-
-## Installation
-
-```bash
-$ npm install BernardJeremy/node-twitch-link
 ```
 
 ## Features
